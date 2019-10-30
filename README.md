@@ -97,4 +97,4 @@ Esto podría parecer una alternativa más limpia para el método nº1 pero en la
 Si solo necesita claves o valores del mapa, usa el método nº2. Si está atascado con una verión anterior de Java (menor de Java 5) o planea eliminar entradas durante la iteración, debe usar el método nº3. De lo contrario, usar el método nº1. 
 
 ## Atajos en NETBEANS para bucles for
-![](https://github.com/")
+![](https://github.com/gitfrandu4/Kata2/blob/master/images/forShortcuts.png "")
