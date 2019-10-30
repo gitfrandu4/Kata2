@@ -15,7 +15,7 @@ A lo largo de las versiones de esta Kata2 usaremos un mapa (Array Asociativo) y 
 
 Además de los métodos `put()` y `get()`también se tienen estos:
 * `containsKey(Object Key)` => comprueba si el mapa contiene la clave *Key*.
-* `keySet() => obtiene el conjunto de claves del mapa.
+* `keySet()` => obtiene el conjunto de claves del mapa.
 
 ## Iteración sobre mapas
 Hay varias formas de iterar sobre un Mapa en Java. Vamos a repasar los métodos más comunes y revisar sus ventajas y desventajas.
