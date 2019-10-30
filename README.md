@@ -98,3 +98,33 @@ Si solo necesita claves o valores del mapa, usa el método nº2. Si está atasca
 
 ## Atajos en NETBEANS para bucles for
 ![](https://github.com/gitfrandu4/Kata2/blob/master/images/forShortcuts.png "")
+
+## Recordatorio
+
+### Operador ternario
+La estrucura genérica de operador condicional ternario es:
+```
+    resultado = condición ? Valor1 : Valor2;
+```
+Donde la variable `resultado` recibirá `valor1` en el caso de que la `condición` sea verdadera o bien el `valor2` en el caso de que la `condición` sea falsa. 
+
+Por ejemplo, si queremos calcular el mayor de dos números tendremos el siguiente código: `mayor = x>y ? x : y;`
+
+### Clases y tipos genéricos en Java
+En Java, cuando definimos una nueva clase, **debemos conocer el tipo de dato** con el que trabajaremos. 
+
+Si queremos realizar una operación especíica dentro de esta nueva clase, sea cual sea el tipo de datos que va a recibir, podemos hacer uso de los tipos genéricos. Este tipo genérico asumirá el tipo de dato que realmente le pasaremos a la clase. 
+
+En Java se especifica que una **clase es de tipo genérico** poniendo `<T>` justo detrás del nombre de la clase:
+```
+public class NombreClase<T> {
+    ...
+}
+``` 
+## Referencias 
+* http://puntocomnoesunlenguaje.blogspot.com.es/2013/02/java-clases-envolventes.html
+* https://es.stackoverflow.com/questions/54419/diferencia-entre-int-einteger
+* https://www.baeldung.com/java-loops
+* http://www.sergiy.ca/how-to-iterate-over-a-map-in-java/
+* http://lineadecodigo.com/java/el-operador-ternario-en-java/
+* https://picodotdev.github.io/blog-bitix/2016/04/tutorial-sobre-los-tipos-genericos-de-java/
